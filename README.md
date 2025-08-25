@@ -20,14 +20,23 @@ This repository is designed with **research reproducibility**, **scalability**, 
 ```
 
 ├── train\_model.py             # Train CNN, apply callbacks, save best model
+
 ├── evaluate\_model.py          # Evaluate trained model (metrics + confusion matrix)
+
 ├── predict.py                 # Predict class of new lesion images
+
 ├── sdd-reseach-cnn.ipynb      # End-to-end notebook with code, outputs & visuals
+
 ├── ImranIsicModle\_02.h5       # Pretrained CNN model (best weights)
+
 ├── training\_history.pkl       # Saved training/validation curves
+
 ├── X\_data.npy / y\_labels.npy  # Preprocessed training data & labels
+
 ├── X\_test.npy / y\_test.npy    # Preprocessed test data & labels
+
 ├── requirements.txt           # Dependency list
+
 └── README.md                  # Documentation (this file)
 
 ````
